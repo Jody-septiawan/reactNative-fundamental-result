@@ -3,13 +3,13 @@ import React from "react";
 import { View } from "react-native";
 
 //Import Screen
-import Props from "./src/screens/props";
+import State from "./src/screens/state";
 
 export default function App() {
   return (
     <View style={{ marginTop: 200 }}>
       <StatusBar />
-      <Props />
+      <State />
     </View>
   );
 }
