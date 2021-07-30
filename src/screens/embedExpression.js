@@ -2,8 +2,6 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { View, Text } from "react-native";
 
-//Import Screen
-
 export default function EmbedExpression() {
   // Create Function Here
   function getMajor() {
