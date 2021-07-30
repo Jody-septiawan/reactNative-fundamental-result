@@ -8,7 +8,7 @@ import Header from "./src/components/header";
 
 export default function App() {
   return (
-    <View>
+    <View style={{ marginTop: 200 }}>
       <StatusBar />
       <Header />
       <Content />
